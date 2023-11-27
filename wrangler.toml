@@ -2,15 +2,17 @@ name = "ai-example"
 main = "src/index.js"
 compatibility_date = "2023-09-18"
 
+[ai]
+binding = "AI"
+
 [[d1_databases]]
 binding = "DATABASE"
 database_name = "ai-example"
-database_id = "2a210384-148b-4c31-bbad-c2873f649f9c"
+database_id = "1d76e99a-81d7-46b9-983b-04a627b9fa63"
+
 
 [[unsafe.bindings]]
 name = "VECTOR_INDEX"
 type = "vectorize"
-index_name = "tutorial-index-768"
-
-[ai]
-binding = "AI"
+index_name = "vector-rag"
+# index_name = "vector-rag-v2"
